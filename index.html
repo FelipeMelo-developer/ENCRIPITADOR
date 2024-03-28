@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encripitador</title>
+    <link rel="icon" type="image/png" href="assets/imgs/logo2.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lilita+One">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins">
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+<body>
+    <header>
+        <img src="assets/imgs/logo2.png" width="15%" alt="Logo" id="Logo">
+        <h1>&nbsp&nbsp ENCRIPITADOR ACME</h1>
+    </header>
+    <main class="main">
+        <div class="Corpo">
+            <div class="texto__para__analise">
+                <br>
+                <label for="input-texto"></label>
+                <p id="mensagem-sem-resultado" style="text-align:center">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                <p class="Atencao"><strong>* Utilize apenas letras minúsculas e sem acento.</strong></p>
+                    <textarea  id="input-texto" class="texto__para__criptografar" name="input-texto" rows="22%" cols="45%" placeholder="Digite sua mensagem:"></textarea>
+                    <br>
+
+                        <div class="botão_acao">
+                            <a href="#" style="--clr:lightblue" id="criptografar-btn"><span>Criptografar</span><i></i></a>
+                            <a href="#" style="--clr:orange" id="descriptografar-btn"><span>Descriptografar</span><i></i></a>
+                        </div>
+
+                        <br>
+            </div>
+            <br>
+
+
+
+
+            <div class="Area-texto-final">
+                <br>
+                <div class="img__sem__mensagem">
+                    <img class="img-texto-final-sem-resultado" src="assets/imgs/logo2-removebg-preview.png" width="50%" >
+                </div>
+                <br>
+                <h2 id="sem-resultado" style="text-align:center">Nenhuma mensagem encontrada</h2>
+                <br>
+                <p id="resultado"></p><br>
+                <!--Botões-->               
+                <a href="#" style="--clr:lightblue" class="botao" id="copiar-resultado"><span>Copiar</span><i></i></a><br>          
+            </div>
+        </div> 
+
+    </main>
+    <br>
+    
+    <!--rodapé com os dados da pessoa que desenvolveu o site-->
+    <footer class="rodape">
+    <P>Desenvolvido por @Felipe Melo para o Projeto do Challanger Alura ONE T6</P>
+        <div class="Redes__sociais">
+
+            <a class="Redes__sociais__links" href="https://www.linkedin.com/in/felipedemelodev/">    
+            <img src="assets/imgs/icons8-linkedin-48.png" alt="Linkedin"></a>
+
+            <a class="Redes__sociais__links" href="https://www.instagram.com/felipedemelodev/"> 
+            <img src="assets/imgs/icons8-instagram-48.png" alt="Instagram"></a>
+
+            <a class="Redes__sociais__links" href="https://github.com/FelipeMelo-developer">
+            <img src="assets/imgs/icons8-github-48.png" alt="GitHub"></a>
+
+        </div>
+    </footer>
+
+    <script src="assets/js/Action.js" defer></script>
+
+</body>
+</html>
